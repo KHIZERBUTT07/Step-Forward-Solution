@@ -1243,24 +1243,28 @@ footer .contact-form button.filled-button:hover {
 		height: 90vh;
 	} 
 }
+
 @media (max-width: 768px) {
 	.sub-header {
 		display: none;
 	}
 	.Modern-Slider .item h6 {
-	  margin-bottom: 15px;
-	  font-size: 18px;
+	  margin-bottom: 10px;
+	  font-size: 1rem;
 	}
 	.Modern-Slider .item h4 {
-	  margin-bottom: 25px;
-	  font-size: 28px;
-	  line-height: 36px;
+	  margin-bottom: 18px;
+	  font-size: 25px;
+	  line-height: 35px;
 	  letter-spacing: 1px;
+	  
 	}
+
 	.Modern-Slider .item p {
 		max-width: 570px;
-		line-height: 25px;
+		line-height: 23px;
 		margin-bottom: 30px;
+		font-size: 0.8rem;
 	}
 	.Modern-Slider .NextArrow{
 	  right:5px;
@@ -1309,6 +1313,25 @@ footer .contact-form button.filled-button:hover {
 	}
 	.contact-item {
 		margin-bottom: 30px;
+	}
+}
+@media(max-width:380px){
+	.Modern-Slider .item h4{
+		margin-bottom: 18px;
+	  font-size: 0.8rem;
+	  line-height: 30px;
+	  letter-spacing: 1px;
+	  white-space: nowrap;
+	}
+	.Modern-Slider .item h6{
+		font-size: 0.6rem;
+	}
+	.Modern-Slider .item p{
+		font-size: 0.6rem;
+	}
+	.navbar .navbar-brand h2{
+		margin-bottom: 10px;
+		font-size: 1.1rem;
 	}
 }
 
