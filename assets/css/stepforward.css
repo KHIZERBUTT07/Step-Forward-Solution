@@ -1060,7 +1060,7 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
 	text-align: center;
-	background-image: url(/assets/images/digital\ team.jpg);
+	background-image: url(/assets/images/digitalteam.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1328,7 +1328,7 @@ footer .contact-form button.filled-button:hover {
 	}
 	.Modern-Slider .item p{
 		font-size: 0.6rem;
-		max-width: 280px;
+		max-width: 240px;
 	}
 	.navbar .navbar-brand h2{
 		margin-bottom: 10px;
