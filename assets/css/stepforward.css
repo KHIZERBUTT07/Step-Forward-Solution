@@ -1328,6 +1328,7 @@ footer .contact-form button.filled-button:hover {
 	}
 	.Modern-Slider .item p{
 		font-size: 0.6rem;
+		max-width: 280px;
 	}
 	.navbar .navbar-brand h2{
 		margin-bottom: 10px;
