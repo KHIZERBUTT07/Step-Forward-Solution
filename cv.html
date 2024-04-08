@@ -25,7 +25,7 @@
         }
         .resume{
           /* margin-block: 40px; */
-            height:80vh;
+            height:85vh;
             width: 65vh;
             background-color:rgb(15, 84, 149) ;
         }
@@ -47,17 +47,17 @@
         }
         .img-area img{
             position: absolute;
-            top: 19%;
+            top: 15%;
             /* left: 37%; */
-            width: 80px;
-            height: 80px;
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
             box-shadow: 0 0 30px #0ef;
         }
         .social-info{
             display: flex;
-            justify-content: space-around;
-            align-items: center;
+            /* justify-content: space-around; */
+            /* align-items: center; */
             color: white;
             padding-top:60px;
             flex-direction: column;
@@ -81,7 +81,7 @@
             padding: 5px;
         }
     .social-info a{
-            margin-top: 10px;
+            /* margin-top: 10px; */
             display: inline-flex;
             border: 2px solid white;
             border-radius:50% ;
@@ -96,23 +96,86 @@
             text-decoration: none;
             color: white;
         }
+        .social-info ul{
+            padding-inline:10px ;
+            text-align: center;
+        }
         .social-info a:hover{
             background: rgb(15, 84, 149);
             color:black;
             box-shadow: 0 0 25px #0ef;
+        }
+        .education{
+            display: flex;
+            /* justify-content: space-around; */
+            /* align-items: center; */
+            color: white;
+            flex-direction: column;
+            white-space: wrap;
+        }
+        .education p{
+            align-items: center;
+            justify-content: space-around;
+            text-align: center;
+            font-size:0.45rem ;
+            padding: 5px;
+            display: inline-block;
+            margin: 0;
+          
+        }
+        .education span{
+            font-size:0.6rem ;
+        }
+        .contact{
+            display: flex;
+            /* justify-content: space-around; */
+            /* align-items: center; */
+            color: white;
+            flex-direction: column;
+            white-space: wrap;
+        }
+        h3{
+           padding-inline: 7px;
+        }
+        
+        .contact p{
+            align-items: center;
+            /* justify-content: space-around; */
+            font-size:0.47rem ;
+            padding: 5px 5px 0 15px;
+            display: inline-block;
+            margin: 0px;
+        }
+        /* ............................................................................................................ */
+
+        .top-area h1{
+            color: white;
+            font-style: italic;
+            font-size:40px;
+            text-align: center;
+            padding-top: 35px;
+            padding-left: 100px;
+        }
+        .top-area h4{
+            color: white;
+            font-size:15px;
+            text-align: center;
+            padding-left: 50px;
+            margin-top: -10px;
         }
     </style>
 </head>
 <body>
     <div class="resume">
         <div class="top-area">
-
-        </div>
+            <h1>Khizer Butt</h1>
+            <h4>Front-end Developer</h4>
+        </div> 
         <div class="left-area">
             <div class="img-area">
                 <img src="assets/images/khizerpasppic.jpg" alt="">
             </div>
-            <div class="social-info">
+            <div class="social-info" >
             
                 <h3> <i class="fa-solid fa-link icons"></i> Social info</h3>
                 <ul>
@@ -120,12 +183,22 @@
                     <a href="https://www.instagram.com/khizer__butt__xyz?igsh=MnB1bjZwZGpzb3Fo&utm_source=qr" target="_blank" style="--i:7" ><i class="fa fa-instagram"></i></a>
                     <a href="https://www.linkedin.com/in/khizer-butt-637a3a241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" style="--i:8" ><i class="fa fa-linkedin"></i></a>
                     <a href="#" style="--i:9" ><i class="fa fa-behance"></i></a>
-                   
-
-                    
                 </ul>
             </div>
+            <div class="education">
+                <h3> <i class="fa-solid fa-book icons"></i> Education</h3>
+                <p><span>2018- 2022 :</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus!</p>
+                <p><span>2022- 2023 :</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus!</p>
+                <p><span>2023- 2024 :</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus!</p>
+            </div>
+            <div class="contact">
+                <h3><i class="fa-solid fa-phone icons"></i> Contact  </h3>
+                 <p><i class="fa-solid fa-location-dot"></i> Manzoor Colony,Karachi.</p>
+                 <p><i class="fa-solid fa-mobile-screen"></i> +92 308 2890 615</p>
+                 <p><i class="fa-solid fa-envelope"></i> Khizerbutt105@gmail.com</p>
+            </div>
         </div>
+        
     </div>
 </body>
 </html>
